@@ -1,0 +1,170 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "health guide",
+            "intents": [
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ProblemIntent",
+                    "slots": [
+                        {
+                            "name": "problem",
+                            "type": "problem"
+                        }
+                    ],
+                    "samples": [
+                        "Search health guide about {problem}",
+                        "Search health guide for {problem}",
+                        "Ask health guide for {problem}",
+                        "Ask health guide to tell me about {problem}",
+                        "Ask health guide to tell me about problems of {problem}",
+                        " Ask health guide about {problem}",
+                        "{problem} ",
+                        "I have a {problem} ",
+                        "I am having {problem} "
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "Yes please",
+                        "More please",
+                        "I woud like to hear more",
+                        "Yes I would like to",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "Nah",
+                        "Nope",
+                        "No"
+                    ]
+                },
+                {
+                    "name": "MedicationIntent",
+                    "slots": [
+                        {
+                            "name": "medication",
+                            "type": "medication"
+                        }
+                    ],
+                    "samples": [
+                        "i am on {medication}",
+                        "I have been using {medication}",
+                        "{medication}",
+                        "Using {medication}",
+                        "I am using {medication}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "problem",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "headache"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "back pain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "backache"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "medication",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Prozac"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "celex"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "thymidine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aspirin"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
